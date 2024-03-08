@@ -32,7 +32,7 @@ class LengthTextBuffer
 		// Methods of reading CSV file.
 	int ReadCSV(istream & stream);
     friend ostream& operator<<(std::ostream& out, const LengthTextBuffer& record); ///< Overloads the output stream operator.
-    friend istream& operator>>(std::istream& in, LengthTextBuffer& record); ///< Overloads the input stream operator. (not be used here)
+    friend istream& operator>>(std::istream& in, LengthTextBuffer& record); ///< Overloads the input stream operator. (not been used here)
 		//---------------------------------------------------------------------------------------------------------
 
    private:
